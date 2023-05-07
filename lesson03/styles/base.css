@@ -1,0 +1,73 @@
+/* Base styles for all devices */
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+}
+
+header{
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav a {
+    margin-left: 20px;
+}
+
+#logo {
+    width: 80px;
+}
+
+main {
+    padding: 20px;
+    width: 90;
+    margin: 0 auto; /* centers the element horizontally */
+    
+}
+
+h1 {
+    font-family: 'Unbounded', sans-serif;
+    font-size: 36px;
+    margin-top: 0;
+    
+}
+
+h2 {
+    font-size: 24px;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 20px 0;
+}
+
+table td {
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+#colored {
+    color: #98D2EB;
+}
+
+footer {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
