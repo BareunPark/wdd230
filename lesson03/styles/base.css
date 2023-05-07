@@ -13,7 +13,7 @@ a {
     text-decoration: none;
 }
 
-header{
+header {
     background-color: #fff;
     padding: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -61,12 +61,27 @@ table td {
     border: 1px solid #ccc;
 }
 
+#color-example-primary {
+    background-color: #fff;
+}
+#color-example-secondary {
+    background-color: #808080;
+}
+#color-example-accent1 {
+    background-color: #000000;
+}
+#color-example-accent2 {
+    background-color: #E0E000;
+}
+
 #colored {
-    color: #98D2EB;
+    background-color: #808080;
+    color:#fff;
 }
 
 footer {
-    background-color: #fff;
+    background-color: #808080;
+    color:#fff;
     padding: 20px;
     margin-top: 20px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
