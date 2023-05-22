@@ -1,0 +1,6 @@
+/* Styles for large devices (desktops) */
+@media (min-width: 1024px) {
+    main {
+        max-width: 1024px;
+    }
+}

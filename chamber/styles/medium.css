@@ -1,0 +1,7 @@
+/* Styles for medium devices (tablets) */
+@media (min-width: 768px) {
+    main {
+        max-width: 768px;
+        margin: 0 auto;
+    }
+}
